@@ -23,14 +23,24 @@ public class ExampleUnitTest {
     public void test() {
         long stimeStamp = System.currentTimeMillis();
         int  l = (int) ( stimeStamp/ 1000L);
-        String time= new SimpleDateFormat("HH:mm:ss").format(new Date(stimeStamp));
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+        String time=sdf.format(new Date(stimeStamp));
 
 
         Calendar instance = Calendar.getInstance();
         instance.setTimeInMillis(stimeStamp);
         int sec = instance.get(Calendar.SECOND);
         System.out.println(time);
+
+        System.out.println(time);
         System.out.println(""+sec);
+    }
+
+
+    @Test
+    public void testCu(){
+        System.out.println(""+10%3);
+        System.out.println(""+19%5);
     }
 }
 

@@ -7,9 +7,9 @@
     tools:context=".ruler.RulerActivity">
 
     <com.liweile.wigetsdemo.ruler.TimeLineView
-        android:layout_marginTop="50dp"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
-        android:layout_height="60dp" />
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

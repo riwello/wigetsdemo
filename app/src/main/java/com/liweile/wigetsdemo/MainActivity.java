@@ -1,8 +1,6 @@
 package com.liweile.wigetsdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
-import retrofit2.Retrofit;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,8 +12,6 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.chad.library.adapter.base.BaseViewHolder;
 import com.liweile.wigetsdemo.ruler.RulerActivity;
 
 public class MainActivity extends AppCompatActivity {
